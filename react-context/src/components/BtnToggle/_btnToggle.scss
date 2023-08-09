@@ -1,0 +1,60 @@
+// /* Styles pour les boutons */
+.btnUser {
+  display: inline-block;
+  padding: 10px 20px;
+  margin: 10px;
+  font-size: 16px;
+  font-weight: bold;
+  text-transform: uppercase;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* Styles pour les boutons */
+.btn {
+  &__container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+  }
+  &__Select {
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 10px;
+    font-size: 16px;
+    font-weight: bold;
+    text-transform: uppercase;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    /*Ombrelégère*/
+    transition: $primary-color 0.2s, transform 0.2s;
+    -webkit-transition: $primary-color 0.2s, transform 0.2s;
+    -moz-transition: $primary-color 0.2s, transform 0.2s;
+    -ms-transition: $primary-color 0.2s, transform 0.2s;
+    -o-transition: $primary-color 0.2s, transform 0.2s;
+  }
+
+  &__Select {
+    background-color: $primary-color; /* Rouge */
+    color: #fff; /* Texte en blanc */
+
+    &:hover {
+      background-color: #b22c2c; /* Rouge plus sombre au survol */
+      transform: translateY(-2px); /* Légère élévation */
+    }
+  }
+}
+
+/* Style pour le lien */
+.btn a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.btn a:hover {
+  text-decoration: underline;
+}

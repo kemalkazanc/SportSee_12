@@ -1,0 +1,12 @@
+@import "../../src/styles/variables";
+@import "../../src/styles/style.scss";
+@import "../components/Header/header";
+@import "../components/Sidebar/sideBar";
+@import "../pages/Profil/profil.container";
+@import "../components/UserInfo/userInfo";
+@import "../components/BtnToggle/btnToggle";
+@import "../components/ComingSoon/comingSoon";
+@import "../components/Charts/ActivityCharts/activityCharts";
+@import "../components/Charts/averageCharts";
+@import "../components/Charts/performanceCharts";
+@import "../components/Charts/radarCharts";

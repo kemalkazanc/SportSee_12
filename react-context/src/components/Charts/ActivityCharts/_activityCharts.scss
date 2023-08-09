@@ -1,0 +1,14 @@
+.activityCharts {
+  &__title {
+    color: #20253a;
+    font-size: 0.9375rem;
+    font-weight: 500;
+  }
+  &__infoPoids {
+    display: flex;
+    gap: 50px;
+    color: #74798c !important;
+    font-size: 0.875rem;
+    font-weight: 500;
+  }
+}

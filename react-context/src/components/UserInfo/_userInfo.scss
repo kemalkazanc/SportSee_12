@@ -1,0 +1,50 @@
+.userInfo {
+  &__section {
+    display: flex;
+    flex-direction: column;
+    width: 413px;
+    height: 89px;
+  }
+  &__title {
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 500;
+  }
+  &__name {
+    color: $primary-color;
+  }
+  &__subtitle {
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+  }
+  &__asideSection {
+    display: flex;
+    flex-direction: column;
+  }
+  &__container {
+    display: flex;
+    align-items: center;
+    background-color: $bg-container;
+    margin-bottom: 33px;
+    border-radius: 5px;
+    width: 250px;
+    height: 124px;
+    flex-shrink: 0;
+    padding: 2em;
+  }
+  &__icon {
+    border-radius: 6px;
+    height: 3.75em;
+    margin-right: 1.5rem;
+    position: relative;
+    width: 3.75em;
+  }
+  &__img {
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+  }
+}
