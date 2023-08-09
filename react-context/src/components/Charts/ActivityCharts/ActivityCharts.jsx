@@ -18,12 +18,20 @@ const ActivityCharts = () => {
 
   // Si l'utilisateur avec l'ID spécifié existe dans userData, récupérer ses données
   const activity = userData[parseInt(userId)]?.activity.data?.sessions;
-  const day = userData[parseInt(userId)]?.activity.data?.sessions[0].day;
-  const kilo = userData[parseInt(userId)]?.activity.data?.sessions[0].kilogram;
-  const calories =
-    userData[parseInt(userId)]?.activity.data?.sessions[0].calories;
   // console.log(day, kilo, calories, "activityChart");
   // console.log(activity, "act");
+
+  function CustomTooltip({ active, payload }) {
+    if (active && payload && payload.length) {
+      return (
+        <div className="customTooltip">
+          <p className="label">{`${payload[0].value} Kg`}</p>
+          <p className="label">{`${payload[1].value} Kcal`}</p>
+        </div>
+      );
+    }
+    return null;
+  }
 
   if (activity)
     return (
@@ -75,7 +83,13 @@ const ActivityCharts = () => {
                   iconSize="10"
                   height={90}
                 />
-                <Tooltip></Tooltip>
+                <Tooltip
+                  cursor={{ opacity: 0.6 }}
+                  content={<CustomTooltip />}
+                  fill="#E6eeee"
+                  offset={21}
+                  wrapperStyle={{ outlineStyle: "none" }}
+                />
               </BarChart>
             </ResponsiveContainer>
           </div>

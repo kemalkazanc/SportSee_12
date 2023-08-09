@@ -1,9 +1,13 @@
 .userInfo {
   &__section {
+    position: relative;
     display: flex;
     flex-direction: column;
     width: 413px;
     height: 89px;
+    margin-left: 10rem;
+    margin-top: 2rem;
+    margin-bottom: -2rem;
   }
   &__title {
     font-size: 48px;

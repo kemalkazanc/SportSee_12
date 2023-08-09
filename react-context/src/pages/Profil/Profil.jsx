@@ -6,9 +6,9 @@ import SideBar from "../../components/Sidebar/SideBar";
 import UserInfo from "../../components/UserInfo/UserInfo";
 import CardsInfo from "../../components/UserInfo/CardsInfo";
 import ActivityCharts from "../../components/Charts/ActivityCharts/ActivityCharts";
-import AverageChart from "../../components/Charts/AverageChart";
-import RadarChart from "../../components/Charts/RadarChart";
-import PerformanceChart from "../../components/Charts/PerformanceChart";
+import AverageChart from "../../components/Charts/LineCharts/AverageChart";
+import RadarChart from "../../components/Charts/RadarCharts/RadarCharts";
+import PerformanceChart from "../../components/Charts/PerformanceCharts/PerformanceChart";
 import { useParams } from "react-router-dom";
 
 const Profil = () => {

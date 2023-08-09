@@ -1,0 +1,37 @@
+.performance {
+  background: $bg-container;
+  position: relative;
+
+  &__title {
+    color: #20253a;
+    font-size: 1rem;
+    font-weight: 500;
+    margin-left: 2rem;
+    margin-top: 1.5rem;
+  }
+}
+
+.percent {
+  color: #282d30;
+  font-size: 1.625rem;
+  font-weight: 700;
+}
+
+.chartgoal-label {
+  color: #9b9eac;
+  font-weight: 500;
+  line-height: 1.625rem;
+  text-align: center;
+}
+
+.chartgoal-label p {
+  margin: 0;
+}
+
+.center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}

@@ -12,3 +12,23 @@
     font-weight: 500;
   }
 }
+
+.customTooltip {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: $primary-color;
+  width: 55px;
+  height: 75px;
+  box-sizing: border-box;
+  padding: 6px 0px;
+  color: white;
+  border-radius: 5px;
+  font: {
+    size: 12px;
+    weight: 500;
+  }
+  p {
+    margin: auto;
+  }
+}

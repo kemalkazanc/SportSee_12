@@ -5,9 +5,9 @@ import SideBar from "../../components/Sidebar/SideBar";
 import BtnUsers from "../../components/BtnToggle/BtnUsers";
 
 const Home = () => {
-  const { userData } = useContext(FetchContext);
+  // const { userData } = useContext(FetchContext);
+  // // console.log("Home donnée", userData);
 
-  //console.log("Home donnée", userData);
   return (
     <>
       <Header />
