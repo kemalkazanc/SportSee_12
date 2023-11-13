@@ -1,0 +1,17 @@
+.header {
+	align-items        : center;
+	background         : black;
+	color              : white;
+	display            : flex;
+	font-size          : 1.5rem;
+	justify-content    : center;
+	nav {
+		align-items       : center;
+		display           : flex;
+		justify-content   : space-between;
+		width             : 95%;
+	}
+	a {
+		color             : white;
+	}
+}

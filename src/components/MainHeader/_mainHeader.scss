@@ -1,0 +1,13 @@
+.mainHeader {
+  display           : flex;
+  flex-direction    : column;
+  height            : 5.5625rem;
+  justify-content   : space-between;
+  margin-left: 5%;
+  h2 {
+    font-size       : 3rem;
+    span {
+      color         : red;
+    }
+  }
+}

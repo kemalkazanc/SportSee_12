@@ -1,0 +1,27 @@
+aside {
+  align-items           : center;
+  background            : black;
+  display               : flex;
+  flex-direction        : column;
+  justify-content       : space-around;
+  overflow              : hidden;
+  .navContainer {
+    display             : flex;
+    flex-direction      : column;
+    height              : 50%;
+    justify-content     : flex-end;
+    nav {
+      display           : flex;
+      flex-direction    : column;
+      height            : 19.75rem;
+      justify-content   : space-between;
+      width             : 4rem;
+    }
+  }
+  p {
+    color               : white;
+    font-size           : .75rem;
+    transform           : rotate(180deg);
+    writing-mode        : tb;
+  }
+}

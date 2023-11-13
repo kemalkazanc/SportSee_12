@@ -1,0 +1,47 @@
+section {
+  display                 : flex;
+  height                  : 68%;
+  justify-content         : space-around;
+  .activityContainer {
+    display               : grid;
+    width                 :63%;
+    gap                   : 1.8125rem;
+    grid-template-areas   : 
+      'activity activity activity'
+      'objectives radar kpi';
+    grid-template-columns : repeat(3, 31%);
+    grid-template-rows    : 50% 43%;
+    .activity,
+    .average,
+    .radar,
+    .kpi {
+      border-radius       : .3125rem;
+    }
+    .activity {
+      grid-area           : activity;
+    }
+
+    .average {
+      background          : red;
+      grid-area           : objectives;
+    }
+    .radar {
+      background-color    : #2e3333;
+      grid-area           : radar;
+    }
+    .kpi {
+      background          : #fbfbfb;
+      grid-area           : kpi;
+    }
+  }
+  .keyFiguresContainer {
+    display               : flex;
+    flex-direction        : column;
+    justify-content       : space-between;
+    width                 : 23%;
+    .keyFigures {
+      background          : #fbfbfb;
+      height              : 21%;
+    }
+  }
+}

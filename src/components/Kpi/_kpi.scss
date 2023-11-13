@@ -1,0 +1,21 @@
+.kpi {
+  position        : relative;
+  h2 {
+    font-size     : 15px;
+    left          : 10%;
+    position      : absolute;
+    top           : 10%;
+  }
+  .p {
+    height        : 70px;
+    left          : 50%;
+    position      : absolute;
+    text-align    : center;
+    top           : 50%;
+    transform     : translateX(-50%) translateY(-50%);
+    width         : 95px;
+    span {
+      font-size   : 26px;
+    }
+  }
+}
